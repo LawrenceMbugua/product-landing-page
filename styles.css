@@ -74,6 +74,10 @@ header {
   width: 60vw;
 }
 
+.logo i {
+  color: #999898;
+}
+
 @media (max-width: 650px) {
   .logo {
     margin-top: 15px;
@@ -353,12 +357,11 @@ footer > ul > li {
   padding: 0 10px;
 }
 
-footer > span {
+footer > .span {
   margin-top: 5px;
-  display: flex;
-  justify-content: flex-end;
   font-size: 0.9em;
   color: #444;
+  text-align: right;
 }
 
 @media screen and (min-width: 801px) {
